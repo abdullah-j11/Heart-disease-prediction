@@ -1,22 +1,30 @@
 Heart Disease Prediction & Analysis 
+A comprehensive machine learning pipeline designed to predict the likelihood of heart disease in patients based on clinical parameters.
 
-This project implements a machine learning pipeline to predict the likelihood of heart disease in patients based on clinical parameters. It covers the full lifecycle of a data science project, from Exploratory Data Analysis (EDA) to Model Evaluation and Feature Importance analysis.
-Project Objective To build and evaluate a binary classification model that accurately identifies patients at risk of heart disease using the UCI Heart Disease Dataset.
+✨ Key Features
+Machine Learning: Implements and compares Logistic Regression and Decision Tree classifiers to identify at-risk patients.
+Medical Insights: Feature importance analysis to identify top predictors like chest pain type (cp) and maximum heart rate (thalach).
+Comprehensive Evaluation: Utilizes Confusion Matrices (critical for medical diagnostics) and ROC-AUC Curves to ensure model reliability.
+Data Visualization: Detailed Exploratory Data Analysis (EDA) using Seaborn and Matplotlib to uncover clinical correlations.
 
-Skills & Tools Languages: Python 3.10+
+📁 Project Structure
+/data: Contains the UCI Heart Disease Dataset.
+/notebooks: Jupyter Notebooks covering Data Cleaning, EDA, and Model Training.
+/models: Saved versions of the trained classification models.
+/scripts: Python scripts for the feature scaling and evaluation pipeline.
+
+🛠️ Tech Stack
+Language: Python 3.10+
 Libraries: Pandas, NumPy, Scikit-Learn
 Visualization: Matplotlib, Seaborn
-Techniques: Data Cleaning, Feature Scaling, Logistic Regression, Decision Trees.
-Dataset Overview The dataset contains 14 key features used to predict the presence of heart disease (Target = 1), including:
+Techniques: Feature Scaling, Binary Classification, Correlation Mapping
+
+📊 Dataset Overview
+The model is trained on 14 key clinical features, including:
 Age & Sex
 Chest Pain Type (cp)
 Resting Blood Pressure (trestbps)
+
 Serum Cholesterol (chol)
+
 Maximum Heart Rate Achieved (thalach)
-Key Features of the Implementation Exploratory Data Analysis (EDA): Visualized feature correlations and distribution of heart disease cases.
-Model Comparison: Implemented and compared Logistic Regression and Decision Tree classifiers.
-Comprehensive Evaluation:
-Accuracy Score to measure overall performance.
-Confusion Matrix to analyze False Positives and False Negatives (critical in medical diagnostics).
-ROC-AUC Curve to evaluate the model’s ability to distinguish between classes.
-Feature Importance: Identified which medical factors (e.g., chest pain type or maximum heart rate) are the strongest predictors of heart disease.
