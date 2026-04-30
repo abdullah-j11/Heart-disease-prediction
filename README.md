@@ -1,4 +1,5 @@
 Heart Disease Prediction & Analysis 
+
 This project implements a machine learning pipeline to predict the likelihood of heart disease in patients based on clinical parameters. It covers the full lifecycle of a data science project, from Exploratory Data Analysis (EDA) to Model Evaluation and Feature Importance analysis.
 Project Objective To build and evaluate a binary classification model that accurately identifies patients at risk of heart disease using the UCI Heart Disease Dataset.
 
